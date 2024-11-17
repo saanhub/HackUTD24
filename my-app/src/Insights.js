@@ -1,12 +1,12 @@
-import logo from './logo.svg';
 import './Insights.css';
+import backgroundImage from './winter.jpg';
+//    //<div className="Insights-hero-background" style={{ background: `url(${backgroundImage}) 50% / cover no-repeat` }}></div>
 
 function Insights() {
   return (
     <div className="Insights">
-        <p> 
-      <h1>Welcome to my React App Insights Page!</h1>
-      </p>
+        <div className="Insights-hero-background" style={{ background: `url(${backgroundImage}) 50% / cover no-repeat` }}></div>
+        <div className="Insights-hero-background-purple"></div>
     </div>
   );
 }
