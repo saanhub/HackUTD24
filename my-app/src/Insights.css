@@ -14,7 +14,7 @@ html, body {
 .Insights-hero-background{
     width: 1728px;
     height: 398px;
-    position: relative; /* Ensure the overlay div positions itself correctly */
+    position: absolute; /* Ensure the overlay div positions itself correctly */
     flex-shrink: 0;
 }
 
@@ -22,7 +22,7 @@ html, body {
 .Insights-hero-background-purple{
     width: 1728px;
     height: 398px;
-    position: relative;
+    position: sticky;
     flex-shrink: 0;
     z-index: 1;
     background: rgba(159, 96, 248, 0.75);
