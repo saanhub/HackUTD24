@@ -1,5 +1,5 @@
 import "./Graph.css";
-
+import { useNavigate } from "react-router-dom";
 import backgroundImage from "./winter.jpg";
 import GasVolumeGraph from "./GasVolumeGraph.png";
 import ErrorGraph from "./ErrorGraph.png";
@@ -8,8 +8,15 @@ import blueBackground from "./bluebg.png";
 //    //<div className="Insights-hero-background" style={{ background: `url(${backgroundImage}) 50% / cover no-repeat` }}></div>
 import eogWord from "./eog.png";
 import eogSymbol from "./eogSymbol.png";
-
 function Graph() {
+
+  const navigate = useNavigate();
+
+  const handleSubmit = () => {
+    // You can perform other logic here (e.g., form validation) before navigating
+    navigate("/");  // Navigate to the Graph page
+  }; 
+
   return (
     <div className="Graph">
       <div className="Header-container">
@@ -42,7 +49,7 @@ function Graph() {
         <h1 className="Graph-text">Gas Volume Graph</h1>
       </div>
       <div className="Custom-ButtonContainer">
-        <button className="Custom-Button">Need info from another well?</button>
+        <button onClick={handleSubmit} className="Custom-Button">Need info from another well?</button>
       </div>
 
       <div
