@@ -18,7 +18,7 @@ function Form() {
     navigate("/graph");  // Navigate to the Graph page
   }; 
 
-  
+
   // Handle file selection
   const handleFileChange = (event) => {
     const file = event.target.files[0];
@@ -118,8 +118,8 @@ function Form() {
         style={{ background: `url(${Upload}) 50% / cover no-repeat` }}
       ></div>
 
-      <div className="Custom-ButtonContainer">
-        <button onClick={handleSubmit} className="Custom-Button">Submit</button>
+      <div className="Custom-submit-ButtonContainer">
+        <button onClick={handleSubmit} className="Custom-submit-Button">Submit</button>
       </div>
     </div>
   );
