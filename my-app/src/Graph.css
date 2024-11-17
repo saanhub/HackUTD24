@@ -125,7 +125,8 @@ body {
 
 /* Graph Text */
 .Graph-text {
-  color: black;
+  color: white;
+  border: black;
   font-size: 40px;
   margin: 0;
 }
@@ -203,7 +204,7 @@ body {
 
 /* Graph Text */
 .Graph2-text {
-  color: black;
+  color: white;
   font-size: 40px;
   margin: 0;
 }

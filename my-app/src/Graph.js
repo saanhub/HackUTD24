@@ -3,7 +3,6 @@ import "./Graph.css";
 import backgroundImage from "./winter.jpg";
 import GasVolumeGraph from "./GasVolumeGraph.png";
 import ErrorGraph from "./ErrorGraph.png";
-import Switch from "./switch.png";
 import chatbot from "./chatbot.png";
 import blueBackground from "./bluebg.png";
 //    //<div className="Insights-hero-background" style={{ background: `url(${backgroundImage}) 50% / cover no-repeat` }}></div>
