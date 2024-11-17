@@ -103,10 +103,10 @@ body {
 
 .Graph-Purple-container {
   position: absolute;
-  width: 700px;
-  height: 600px;
+  width: 920px;
+  height: 530px;
   top: 500px;
-  left: 8%;
+  left: 20px;
   border: 2px solid black;
   border-radius: 8px;
   background-color: #d4bce8;
@@ -128,4 +128,182 @@ body {
   color: black;
   font-size: 40px;
   margin: 0;
+}
+
+/* Custom Button Container */
+.Custom-ButtonContainer {
+  position: absolute;
+  top: 30px;
+  left: 90%;
+  transform: translateX(-50%);
+  z-index: 4;
+}
+
+/* Custom Button */
+.Custom-Button {
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  background-color: #9d89c1;
+  color: rgb(53, 6, 6);
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Custom-Button:hover {
+  background-color: #45a049;
+}
+
+/* EOG symbol Background Image */
+.Gas-Vol-image-background {
+  width: 900px;
+  height: 500px;
+  position: absolute;
+  top: 510px;
+  left: 30px;
+  z-index: 5; /* Set lower z-index to stay behind */
+}
+
+/* Error Graph */
+.Error-image {
+  width: 100%;
+  max-width: 600px;
+  height: 100%;
+  max-height: 500px;
+  position: absolute;
+  top: 1260px;
+  left: 34px;
+  object-fit: contain;
+  display: block;
+  z-index: 5;
+}
+
+.Graph2-Purple-container {
+  position: absolute;
+  width: 620px;
+  height: 530px;
+  top: 1250px;
+  left: 25px;
+  border: 2px solid black;
+  border-radius: 8px;
+  background-color: #d4bce8;
+}
+
+/* Graph2 Container */
+.Graph2-container {
+  position: absolute;
+  top: 1160px; /* Adjust position as needed */
+  left: 340px;
+  width: 100%;
+  transform: translateX(-50%);
+  z-index: 3; /* Higher z-index to ensure it sits on top */
+  text-align: center;
+}
+
+/* Graph Text */
+.Graph2-text {
+  color: black;
+  font-size: 40px;
+  margin: 0;
+}
+
+/* EOG symbol Background Image */
+.chatbot-image-background {
+  width: 400px;
+  height: 540px;
+  position: absolute;
+  top: 500px;
+  left: 1100px;
+  z-index: 5; /* Set lower z-index to stay behind */
+}
+
+.Sol-Purple-container {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  top: 1450px;
+  left: 780px;
+  border: 2px solid black;
+  border-radius: 8px;
+  background-color: #d4bce8;
+  z-index: 6;
+}
+
+.Sol2-Purple-container {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  top: 1450px;
+  left: 1080px;
+  border: 2px solid black;
+  border-radius: 8px;
+  background-color: #d4bce8;
+  z-index: 6;
+}
+
+/* Solutions buttons*/
+.Sol-text-container {
+  position: absolute;
+  top: 1350px; /* Adjust position as needed */
+  left: 1050px;
+  width: 100%;
+  transform: translateX(-50%);
+  z-index: 3; /* Higher z-index to ensure it sits on top */
+  text-align: center;
+}
+
+/* Graph Text */
+.Sol-text {
+  color: white;
+  font-size: 40px;
+  margin: 0;
+}
+
+/* Solution1*/
+.Sol1-text-container {
+  position: absolute;
+  top: 1450px; /* Adjust position as needed */
+  left: 900px;
+  width: 200px;
+  transform: translateX(-50%);
+  z-index: 6; /* Higher z-index to ensure it sits on top */
+  text-align: center;
+}
+
+/* Graph Text */
+.Sol1-text {
+  color: BLACK;
+  font-size: 30px;
+  margin: 0;
+}
+
+/* Solution1*/
+.Sol2-text-container {
+  position: absolute;
+  top: 1450px; /* Adjust position as needed */
+  left: 1200px;
+  width: 200px;
+  transform: translateX(-50%);
+  z-index: 6; /* Higher z-index to ensure it sits on top */
+  text-align: center;
+}
+
+/* Graph Text */
+.Sol2-text {
+  color: BLACK;
+  font-size: 30px;
+  margin: 0;
+}
+
+/* Background Image */
+.switch-image-background {
+  width: 100px;
+  height: 100px;
+  left: 1000px;
+  top: 1500 px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 7; /* Set lower z-index to stay behind */
 }
