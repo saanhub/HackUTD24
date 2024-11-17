@@ -3,8 +3,10 @@ from flask import Flask, request, jsonify
 from model.model import predict_with_model, train_model
 from notifications.notifier import send_notifications
 import os
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
 model, scaler = train_model()
 
