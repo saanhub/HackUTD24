@@ -1,38 +1,29 @@
+html,
+body {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  height: 100%; /* Ensure the body takes up the full height */
+  position: relative;
+}
+
 .App {
-  text-align: center;
+  width: 1728px;
+  height: 2006px;
+  background: #fff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App-image-background {
+  width: 1728px;
+  height: 398px;
+  position: absolute; /* Ensure the overlay div positions itself correctly */
+  flex-shrink: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App-hero-background-purple {
+  width: 1728px;
+  height: 398px;
+  position: sticky;
+  flex-shrink: 0;
+  z-index: 1;
+  background: rgba(159, 96, 248, 0.75);
 }
