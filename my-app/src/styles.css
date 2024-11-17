@@ -57,6 +57,7 @@ body{
 .chatbox .chat p {
     list-style: none;
     padding: 12px 16px;
+    white-space: pre-wrap;
     max-width: 75%;
     font-size: .95rem;
     color: #fff;

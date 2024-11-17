@@ -32,7 +32,7 @@ const generateResponse = () => {
         })
         .catch((error) => {
             console.log("Error:", error);
-        });
+        }).finally(() => chatbox.scrollTo(0,chatbox.scrollHeight));
 };
 
 const handleChat = () => {
@@ -40,10 +40,10 @@ const handleChat = () => {
     if (!userMessage) return;
 
     chatbox.appendChild(createCharLi(userMessage, "outgoing"));
-
+    chatbox.scrollTo(0,chatbox.scrollHeight);
     setTimeout(() => {
-        chatbox.appendChild(createCharLi("Thinking...", "incoming"));
         generateResponse();
+        chatbox.scrollTo(0,chatbox.scrollHeight);
     }, 600);
 
     chatInput.value = "";
