@@ -1,0 +1,154 @@
+.Form-Purple-container {
+  position: absolute;
+  width: 812px;
+  height: 910px;
+  top: 523px;
+  left: 23.5%;
+  border: 2px solid black;
+  border-radius: 8px;
+  background-color: #e9e0f1;
+}
+
+/* Employee ID Container */
+.EmployeeID-container {
+  position: absolute;
+  top: 608px; /* Adjust position as needed */
+  left: 500px;
+  width: 100%;
+  transform: translateX(-50%);
+  z-index: 3; /* Higher z-index to ensure it sits on top */
+  text-align: center;
+}
+
+/* Employee ID Text */
+.EmployeeID-text {
+  color: black;
+  font-size: 30px;
+  margin: 0;
+}
+
+/* Well Container */
+.Well-container {
+  position: absolute;
+  top: 790px; /* Adjust position as needed */
+  left: 490px;
+  width: 100%;
+  transform: translateX(-50%);
+  z-index: 3; /* Higher z-index to ensure it sits on top */
+  text-align: center;
+}
+
+/* Well Text */
+.Well-text {
+  color: black;
+  font-size: 30px;
+  margin: 0;
+}
+
+/*Test Field 1*/
+/* Custom Input Container */
+.Custom-InputContainer {
+  position: absolute;
+  top: 660px; /* Positioned right below the heading */
+  left: 48.5%;
+  transform: translateX(-50%);
+  width: 660px; /* Match the width of the heading container */
+  z-index: 5;
+}
+
+/* Custom Text Field */
+.Custom-TextField {
+  width: 100%; /* Use the full width of the container */
+  height: 50px;
+  padding: 10px;
+  font-size: 18px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+/*Test Field 2*/
+/* Custom Input Container */
+.Well-InputContainer {
+  position: absolute;
+  top: 840px; /* Positioned right below the heading */
+  left: 48.5%;
+  transform: translateX(-50%);
+  width: 660px; /* Match the width of the heading container */
+  z-index: 5;
+}
+
+/* Custom Text Field */
+.Well-TextField {
+  width: 100%; /* Use the full width of the container */
+  height: 50px;
+  padding: 10px;
+  font-size: 18px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+/* Upload button */
+.Upload-container {
+  position: absolute;
+  top: 970px; /* Adjust position as needed */
+  left: 490px;
+  width: 100%;
+  transform: translateX(-50%);
+  z-index: 3; /* Higher z-index to ensure it sits on top */
+  text-align: center;
+}
+
+/* UploadText */
+.Upload-text {
+  color: black;
+  font-size: 30px;
+  margin: 0;
+}
+
+.Form-upload-box {
+  position: absolute;
+  width: 450px;
+  height: 257px;
+  top: 1030px;
+  left: 27%;
+  background-color: white;
+  border: 2px solid #6a6a6a;
+}
+
+/* Background Image */
+.Upload-image-background {
+  width: 110px;
+  height: 110px;
+  position: absolute;
+  top: 1100px;
+  left: 38%;
+
+  z-index: 4;
+}
+
+/* Custom Button Container */
+.Custom-ButtonContainer {
+  position: absolute;
+  top: 1340px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 4;
+}
+
+/* Custom Button */
+.Custom-Button {
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  background-color: #9d89c1;
+  color: rgb(53, 6, 6);
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Custom-Button:hover {
+  background-color: #45a049;
+}
