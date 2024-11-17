@@ -1,0 +1,12 @@
+html, body {
+    margin: 0;       /* Remove default margin */
+    padding: 0;      /* Remove default padding */
+    height: 100%;    /* Ensure the body takes up the full height */
+    position: relative
+  }
+
+.Insights{
+    width: 1728px;
+    height: 2006px;
+    background: #fff;
+}
