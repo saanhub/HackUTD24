@@ -5,8 +5,8 @@ import seaborn as sns
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 
- # name = input("what's the name of your file? ")
-data = pd.read_csv('python files + env\bold.csv') # reads csv file
+name = input("what's the name of your file? ")
+data = pd.read_csv(name) # reads csv file
 
 # convert the 'Time' column to datetime format
 data['Time'] = pd.to_datetime(data['Time'], format='%m/%d/%Y %I:%M:%S %p')
