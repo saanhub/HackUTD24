@@ -1,0 +1,122 @@
+html,
+body {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  height: 100%; /* Ensure the body takes up the full height */
+  position: relative;
+}
+
+.App {
+  width: 1728px;
+  height: 2006px;
+  background: #fff;
+}
+
+/* Background Image */
+.App-image-background {
+  width: 1728px;
+  height: 2000px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0; /* Set lower z-index to stay behind */
+}
+
+/* EOG Background Image */
+.EOG-image-background {
+  width: 114px;
+  height: 117px;
+  position: absolute;
+  top: 73px;
+  left: 45px;
+  z-index: 1; /* Set lower z-index to stay behind */
+}
+
+/* EOG symbol Background Image */
+.EOG-symbol-image-background {
+  width: 65px;
+  height: 112px;
+  position: absolute;
+  top: 26px;
+  left: 70px;
+  z-index: 2; /* Set lower z-index to stay behind */
+}
+
+/* Purple Overlay */
+.App-hero-background-purple {
+  width: 1728px;
+  height: 300px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1; /* Slightly higher z-index for the overlay */
+  background: rgba(93, 23, 255, 0.5);
+}
+
+/* Header Container */
+.Header-container {
+  position: absolute;
+  top: 165px; /* Adjust position as needed */
+  left: 50%;
+  width: 100%;
+  transform: translateX(-50%);
+  z-index: 2; /* Higher z-index to ensure it sits on top */
+  text-align: center;
+}
+
+/* Title Text */
+.Title-text {
+  color: white;
+  font-size: 85px;
+  margin: 0;
+}
+
+/* Header Container */
+.Small-header-container {
+  position: absolute;
+  top: 110px; /* Adjust position as needed */
+  left: 50%;
+  width: 100%;
+  transform: translateX(-50%);
+  z-index: 3; /* Higher z-index to ensure it sits on top */
+  text-align: center;
+}
+
+/* Title Text */
+.Small-title-text {
+  color: WHITE;
+  font-size: 35px;
+  margin: 0;
+}
+
+.White-line {
+  position: absolute;
+  top: 170px;
+  left: 50%;
+  width: 611px;
+  height: 3px; /* Line thickness */
+  background-color: white;
+  color: white;
+  border-color: white;
+  transform: translateX(-50%); /* Center the line horizontally */
+}
+
+/* Beyond the Header */
+
+/* Header Container */
+.Beyond-text-container {
+  position: absolute;
+  top: 380px; /* Adjust position as needed */
+  left: 50%;
+  width: 100%;
+  transform: translateX(-50%);
+  z-index: 3; /* Higher z-index to ensure it sits on top */
+  text-align: center;
+}
+
+/* Title Text */
+.Beyond-title-text {
+  color: black;
+  font-size: 48px;
+  margin: 0;
+}

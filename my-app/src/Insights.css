@@ -1,0 +1,30 @@
+html, body {
+    margin: 0;       /* Remove default margin */
+    padding: 0;      /* Remove default padding */
+    height: 100%;    /* Ensure the body takes up the full height */
+    position: relative
+  }
+
+.Insights{
+    width: 1728px;
+    height: 2006px;
+    background: #fff;
+}
+
+.Insights-hero-background{
+    width: 1728px;
+    height: 398px;
+    position: absolute; /* Ensure the overlay div positions itself correctly */
+    flex-shrink: 0;
+}
+
+
+.Insights-hero-background-purple{
+    width: 1728px;
+    height: 398px;
+    position: sticky;
+    flex-shrink: 0;
+    z-index: 1;
+    background: rgba(159, 96, 248, 0.75);
+    
+}
