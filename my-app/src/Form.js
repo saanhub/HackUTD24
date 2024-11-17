@@ -1,12 +1,24 @@
 import React, { useState, useRef } from "react";
 import "./Form.css";
 import Upload from "./upload.png";
+import { useNavigate } from "react-router-dom";
 import axios from "axios";
+
+
+
+  // Handle submit to navigate to Graph.js
 
 function Form() {
   const [selectedFile, setSelectedFile] = useState(null);
   const inputRef = useRef(null);
+  const navigate = useNavigate();
 
+  const handleSubmit = () => {
+    // You can perform other logic here (e.g., form validation) before navigating
+    navigate("/graph");  // Navigate to the Graph page
+  }; 
+
+  
   // Handle file selection
   const handleFileChange = (event) => {
     const file = event.target.files[0];
@@ -107,7 +119,7 @@ function Form() {
       ></div>
 
       <div className="Custom-ButtonContainer">
-        <button className="Custom-Button">Submit</button>
+        <button onClick={handleSubmit} className="Custom-Button">Submit</button>
       </div>
     </div>
   );
