@@ -3,13 +3,19 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import Graph from "./Graph";
-import Insights from "./Insights";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
+
 root.render(
   <React.StrictMode>
-    <App />
+    <Router> {/* Wrap everything inside Router */}
+      <Routes>  {/* Define your Routes here */}
+        <Route path="/" element={<App />} />          {/* Route for App component */}
+        <Route path="/graph" element={<Graph />} />   {/* Route for Graph component */}
+      </Routes>
+    </Router>
   </React.StrictMode>
 );
 
