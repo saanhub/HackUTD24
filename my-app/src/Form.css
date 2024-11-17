@@ -4,6 +4,8 @@
   height: 910px;
   top: 523px;
   left: 23.5%;
+  border: 2px solid black;
+  border-radius: 8px;
   background-color: #e9e0f1;
 }
 
@@ -111,8 +113,28 @@
   height: 257px;
   top: 1030px;
   left: 27%;
-  background-color: lightgray;
+  background-color: white;
   border: 2px solid #6a6a6a;
+}
+
+/* Background Image */
+.Upload-image-background {
+  width: 110px;
+  height: 110px;
+  position: absolute;
+  top: 1100px;
+  left: 38%;
+
+  z-index: 4;
+}
+
+/* Custom Button Container */
+.Custom-ButtonContainer {
+  position: absolute;
+  top: 1340px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 4;
 }
 
 /* Custom Button */
@@ -120,10 +142,10 @@
   width: 200px;
   height: 50px;
   font-size: 18px;
-  background-color: #4caf50;
-  color: white;
-  border: none;
-  border-radius: 8px;
+  background-color: #9d89c1;
+  color: rgb(53, 6, 6);
+  border: 2px solid black;
+  border-radius: 5px;
   cursor: pointer;
 }
 

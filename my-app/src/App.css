@@ -15,7 +15,7 @@ body {
 /* Background Image */
 .App-image-background {
   width: 1728px;
-  height: 300px;
+  height: 2000px;
   position: absolute;
   top: 0;
   left: 0;
@@ -50,7 +50,7 @@ body {
   top: 0;
   left: 0;
   z-index: 1; /* Slightly higher z-index for the overlay */
-  background: rgba(159, 96, 248, 0.75);
+  background: rgba(93, 23, 255, 0.5);
 }
 
 /* Header Container */
