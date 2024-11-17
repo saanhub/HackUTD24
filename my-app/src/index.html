@@ -2,24 +2,25 @@
 <html lang = "en" dir = "ltr">
 <head>
     <link rel = "stylesheet" href = "styles.css">
-    <meta name = "viewport" content=" width = device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src ="script.js" defer></script>
 </head>
     <body>
         <div class = "chatbot">
             <header>
                 <h2>Chatbot</h2>
             </header>
-            <u1 class ="chatbox">
-                <li class="chat incoming">
+            <ul class ="chatbox">
+                <li class="incoming">
                     <p> Hi there! <br> How can I help you today?</p>
                 </li>
                 <li class="chat outgoing">
                     <p> Lorem ipsum lalala</p>
                 </li>
-            </u1>
+            </ul>
             <div class = "chat-input">
-                <textarea placeholder="Enter a message..."></textarea>
-                <span id = "send-btn" ></span>
+                <textarea id="chat-input-field" placeholder="Enter a message..." required></textarea>
+                <span id="send-btn" aria-label="Send message">Send</span>
             </div>
         </div>
     </body>
